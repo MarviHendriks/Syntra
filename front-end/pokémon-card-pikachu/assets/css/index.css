@@ -1,0 +1,131 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVT8yLcx51FRNObuKygSF3qe68hphqDWtZ0g&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  border: rgba(205, 161, 80, 255) solid 8px;
+  background-color: white;
+  background-image: url(https://i.pinimg.com/originals/ba/57/a5/ba57a599f3013cb7eb26648cec1b588c.jpg);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#pokemondetail {
+  position: absolute;
+  right: 20px;
+  color: red;
+}
+
+.pokemontype {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+#damage {
+  display: flex;
+  align-items: center;
+}
+
+#energy-cards {
+  display: flex;
+  align-items: center;
+
+  width: 50px;
+}
+
+#attack {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#description-attack {
+  display: flex;
+  width: 160px;
+  align-items: center;
+  font-size: 11px;
+}
+
+.card {
+  background-color: rgba(215, 187, 125, 255);
+  padding: 20px;
+  padding-top: 2px;
+  padding-bottom: 11px;
+}
+
+#border {
+  border: black solid 3 px;
+  padding: 10px;
+  background-color: rgba(205, 161, 80, 255);
+  width: 310px;
+  height: 550px;
+  border-radius: 3%;
+}
+
+#basic {
+  font-size: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+.card-image-top {
+  border: 5px solid rgb(85, 85, 85);
+  background-image: url(https://i.pinimg.com/originals/ba/57/a5/ba57a599f3013cb7eb26648cec1b588c.jpg);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid rgba(168, 155, 139, 255);
+  background-color: rgba(168, 155, 139, 255);
+}
+
+#line {
+  padding-bottom: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.grid-item {
+  text-align: center;
+  font-size: 11px;
+}
+.grid-item1 {
+  text-align: left;
+  font-size: 11px;
+}
+.grid-item3 {
+  text-align: right;
+  font-size: 11px;
+}
+
+#final {
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid rgba(168, 155, 139, 255);
+  background-color: rgba(168, 155, 139, 255);
+}

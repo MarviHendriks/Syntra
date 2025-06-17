@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdracht 2</title>
+
+    <link rel="stylesheet" href="../../bootstrap/bootstrap-5-0-1.css" />
+    <script defer src="../../bootstrap/bootstrap-5-0-1.js"></script>
+
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+    </style>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Opdracht 3</h1>
+        <h2>Score van cursisten</h2>
+
+        <button
+          type="button"
+          class="btn btn-primary m-3"
+          onclick="cursistenToevoegen()"
+        >
+          Genereer scores
+        </button>
+
+        <div class="cards">
+          <div class="card" style="width: 250px">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tip: style eerst één kaart in HTML, gebruik deze vervolgens in JavaScript -->
+          <!-- Het voorbeeld element mag blijven staan, dit moet niet. -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

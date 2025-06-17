@@ -1,0 +1,260 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url(./euromillions-logo.webp);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: hsl(45, 62%, 59%);
+  text-decoration: underline;
+  position: absolute;
+  top: 8px;
+  left: 18%;
+}
+
+.nummers {
+  font-size: x-large;
+  font-weight: bold;
+  color: #d8b857;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  top: 100px;
+  left: 33%;
+}
+
+.sterren {
+  font-size: x-large;
+  font-weight: bold;
+  color: #d8b857;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+
+  top: 100px;
+  left: 62%;
+}
+
+.nummersinput {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 24%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.nummersinput1 {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 29%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.nummersinput2 {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 34%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.nummersinput3 {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 39%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.nummersinput4 {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 44%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.sterreninput {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 150px;
+  left: 60%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+
+.sterreninput1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 150px;
+  left: 65%;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+}
+#vergelijken {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: x-large;
+  font-weight: bold;
+  position: absolute;
+  top: 590px;
+  left: 45%;
+}
+
+#vergelijken:hover {
+  background-color: rgb(0, 48, 192);
+  color: #d8b857;
+}
+
+.btn1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 325px;
+  left: 2%;
+}
+
+.btn1:hover {
+  background-color: rgb(0, 48, 192);
+  color: #d8b857;
+}
+
+.btn2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 325px;
+  right: 2%;
+}
+
+.btn2:hover {
+  background-color: rgb(0, 48, 192);
+  color: #d8b857;
+}
+
+footer {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  bottom: 15px;
+  right: 16px;
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #d8b857;
+}
+
+footer:hover {
+  background-color: rgb(0, 48, 192);
+  color: #d8b857;
+}
+
+#resultaat {
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+}
+
+#vergelijking {
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 9%;
+  height: 50px;
+  width: 50px;
+}
+
+#vergelijking2 {
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  right: 8%;
+  height: 50px;
+  width: 50px;
+}
+
+#hoevaaknummers {
+  display: block;
+
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 400px;
+  left: 2%;
+}
+
+#hoevaaksterren {
+  display: block;
+
+  background-color: #d8b857;
+  color: rgb(0, 48, 192);
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 400px;
+  right: 2%;
+}

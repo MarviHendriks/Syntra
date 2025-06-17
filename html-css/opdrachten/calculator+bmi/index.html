@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link met js</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="js.js"></script>
+  </head>
+  <body>
+    <h1>Javascript linken</h1>
+    <h2>Calculator</h2>
+    <div>
+      <input id="n1" type="number" />
+      <select name="operators" id="operators">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="macht">macht</option>
+        <option value="wortel">wortel</option>
+      </select>
+      <input id="n2" type="number" />
+      <br />
+      <button onclick="uitkomst()">=</button>
+    </div>
+    <div id="totaal"></div>
+
+    <h2>BMI Calculator</h2>
+    <h3>geef hier onder uw gewicht en lengte in!</h3>
+    <div>
+      <label for="gewicht">Gewicht:</label>
+      <input id="gewicht" type="number" />
+      <br />
+      <label for="lengte1">Lengte: </label>
+      <input id="lengte1" type="number" />
+      <br />
+      <button onclick="bmi()">=</button>
+    </div>
+    <div id="totaalbmi"></div>
+
+    <h4>Wat is Bmi?</h4>
+    <p>
+      De Body Mass Index (BMI) drukt de verhouding uit tussen je gewicht en
+      lengte. Je berekent je eigen BMI als volgt: BMI= gewicht (kg) / (lengte
+      (m) x lengte (m)) Op basis van het cijfer dat tevoorschijn komt, weet jij
+      (als volwassene) in welke categorie je thuishoort:
+    </p>
+  </body>
+</html>

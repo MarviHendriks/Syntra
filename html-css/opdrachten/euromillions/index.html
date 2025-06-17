@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Euromillions vergelijker</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script defer src="./assets/index.js"></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <h1>
+      Vul uw nummers en sterren in en vergelijk als deze combinatie al gevallen
+      is !
+    </h1>
+    <div class="nummers">Nummers</div>
+    <form onsubmit="return false;">
+      <input class="nummersinput" type="number" min="1" max="50" required />
+      <input class="nummersinput1" type="number" min="1" max="50" required />
+      <input class="nummersinput2" type="number" min="1" max="50" required />
+      <input class="nummersinput3" type="number" min="1" max="50" required />
+      <input class="nummersinput4" type="number" min="1" max="50" required />
+      <br />
+      <div class="sterren">Sterren</div>
+      <input class="sterreninput" type="number" min="1" max="12" required />
+      <input class="sterreninput1" type="number" min="1" max="12" required />
+      <br />
+      <br />
+      <button id="vergelijken" onclick="vergelijk()">Vergelijk</button>
+    </form>
+    <input id="vergelijking" type="number" min="1" max="50" required />
+    <button class="btn1" onclick="hoeVaakIsNummerGevallen()">
+      Hoe vaak is een nummer gevallen?
+    </button>
+
+    <input id="vergelijking2" type="number" min="1" max="12" required />
+    <button class="btn2" onclick="hoeVaakIsSterGevallen()">
+      Hoe vaak is een ster gevallen?
+    </button>
+
+    <div id="resultaat"></div>
+    <div id="hoevaaknummers"></div>
+    <div id="hoevaaksterren"></div>
+
+    <footer>
+      Deze data begint van het jaar 2016 omdat er sindsdien 50 nummers en 12
+      cijfers zijn.
+    </footer>
+  </body>
+</html>
